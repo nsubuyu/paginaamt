@@ -1,0 +1,5 @@
+.modificar{
+    width: 100%;  /* Asegura que las imágenes se adapten a su contenedor */
+            height: auto; /* Mantiene la relación de aspecto de las imágenes */
+            max-width: 100px;
+}

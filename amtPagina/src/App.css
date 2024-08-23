@@ -1,16 +1,28 @@
-.texto{
+.fondo{
     position: relative;
 
 }
 
-.fondo{
+.texto{
     position: absolute;
         /* Posición absoluta dentro del contenedor */
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-color: #3498db;
-        /* Fondo del div de abajo */
+
+        width: 500px ;
+        
+        
         z-index: 1;
         /* Colocado detrás */}
+
+.tfondo{
+    position: relative;
+}
+
+.vector{
+    position: absolute;
+    z-index: 1;
+}
+
+.linea{
+    width:400px ;
+    
+}
