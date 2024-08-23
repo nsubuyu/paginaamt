@@ -1,0 +1,16 @@
+.texto{
+    position: relative;
+
+}
+
+.fondo{
+    position: absolute;
+        /* Posición absoluta dentro del contenedor */
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #3498db;
+        /* Fondo del div de abajo */
+        z-index: 1;
+        /* Colocado detrás */}

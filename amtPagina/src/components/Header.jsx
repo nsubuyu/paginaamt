@@ -2,9 +2,9 @@ import React from "react";
 
 function Header(props) {
   return (
-    <div>
-      <img src={props.imagen} alt={props.alter} />
-    </div>
+    <figure className=" w-100">
+      <img src={props.imagen} alt={props.alter} className=" w-100 h-100" />
+    </figure>
   );
 }
 

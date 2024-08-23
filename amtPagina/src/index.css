@@ -3,4 +3,12 @@
     --medio-color:#4c6fbf;
     --azul-color: #004aad;
     
+    
+}
+
+body {
+    
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
 }
