@@ -9,8 +9,8 @@ function Tags(props) {
         </figure>
       </div>
 
-      <div className="vmtexto">
-        <div className=" text-white">
+      <div className="vmtexto mx-5 mt-3">
+        <div className="  text-white">
           <h3>
             <strong>{props.titulo}</strong>
           </h3>

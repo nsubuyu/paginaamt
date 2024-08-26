@@ -26,16 +26,21 @@ function App() {
           alter="imagen"
         />
       </section>
-
-      <div data-aos="fade-up" className="text-center amt m-5">
+       <div className="position-relative ">
+       <div data-aos="fade-up" className="text-center amt m-5 ribbon" >
         <Titulo
           texto=" AMT CUSTOMS SERVICES"
           negritas="Importaciones y Exportaciones"
         />
       </div>
+    {/*<div className="position-absolute z-n1  atrastexto">
+
+      </div>*/}
+       </div>
+      
       <section>
         <div>
-          <div className="texto text-white m-5 " >
+          <div className="texto text-white" >
             <Parrafo
               titulo="QUIENES SOMOS"
               body="Servicio aduanero y logística integral con experiencia en
@@ -53,7 +58,7 @@ function App() {
         </div>
       </section>
 
-      <div className="d-flex caucar mt-5">
+      <div className="d-flex caucar mx-5">
         <Azul
           titulo="Cauca"
           imagen="/src/assets/pagina amt/IMÁGENES AMT 600600.png"
@@ -64,7 +69,7 @@ function App() {
         />
       </div>
 
-      <div className="objetivos">
+      <div className="objetivos mx-5 ">
         <h3>
           <strong> Nuestros objetivos:</strong>
         </h3>
@@ -101,7 +106,7 @@ function App() {
 
           <div className="d-flex tag ">
 
-            <div className="vmtexto">
+            <div className="vmtexto mx-5 mt-3">
               <div className=" text-white">
                 <h3>
                   <strong>MISION</strong>
@@ -190,9 +195,13 @@ function App() {
           </div>
         </div>
       </section>
-      <Header imagen="/src/assets/pagina amt/4o.png" alter="señores" />
-
-      <Imagenp
+      <div className="mb-5">
+      <Header imagen="/src/assets/pagina amt/4o.png" alter="señores"  />
+      </div>
+      
+      <div className="mx-5">
+       <div className="d-flex justify-content-start">
+       <Imagenp
         titulo="Asesorías"
         imagen="/src/assets/pagina amt/3.png"
         alter="mesa"
@@ -202,7 +211,10 @@ function App() {
          SAT, en materia de comercio exterior."
         ident="asesoria"
       />
+       </div>
+      
 
+      <div className="d-flex justify-content-end">
       <Imagenp
         titulo="Transporte"
         imagen="/src/assets/pagina amt/2.png"
@@ -218,10 +230,15 @@ function App() {
          capacidad de proporcionar transporte ​terrestre."
         ident="transporte"
       />
+      </div>
+
+      </div>
+      
 
       <section>
 
-        <div className="d-flex amts">
+        <div className="d-flex junstfy-content-center mx-5 pb-5 separar">
+          
           <div className="tamaño">
             <div className="d-flex ">
               <div className="vector">
@@ -242,12 +259,13 @@ function App() {
                 <img src="/src/assets/pagina amt/13.png" alt="" />
 
               </div>
-              <div className="tfondo">
-                <img src="/src/assets/pagina amt/10.png" alt="barco" />
+              <div className="tfondo ">
+                <img src="/src/assets/pagina amt/10.png" alt="barco"  className=""/>
 
               </div>
             </div>
           </div>
+
           <div classsName="tamaño">
             <div className="d-flex ">
               <div className="vector">
@@ -256,21 +274,23 @@ function App() {
               </div>
 
               <div className="tfondo">
-                <img src="/src/assets/pagina amt/9.png" alt="" />
+                <img src="/src/assets/pagina amt/9.png" alt="avion" />
 
               </div>
             </div>
           </div>
-
-
-
-
         </div>
       </section>
 
-      <div className="d-flex contactos">
-        <div className="cleft">
-          <div className="botones2 text-white">
+
+
+
+
+
+      <section>
+      <div className="d-flex contactos cola">
+        <div className="cleft mt-5">
+          <div className="botones2 text-white m-5">
             <h3><strong> Servicios</strong></h3>
           </div>
           <div className="listserv">
@@ -283,8 +303,8 @@ function App() {
           </div>
         </div>
 
-        <div>
-          <div className="botones2 text-white">
+        <div className="mt-5">
+          <div className="botones2 text-white m-5">
             <h3><strong>Contáctanos</strong></h3>
           </div>
           <div className="direc">
@@ -301,6 +321,8 @@ function App() {
           </div>
         </div>
       </div>
+      </section>
+      
     </>
   );
 }

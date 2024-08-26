@@ -10,7 +10,7 @@
 
         width: 500px ;
         
-        
+        margin: 8rem;
         z-index: 1;
         /* Colocado detrás */}
 
@@ -50,6 +50,10 @@
 
 .caucar{
     gap: 147px;
+}
+
+.objetivos{
+    margin-top: 3rem;
 }
 
 .objetivos h3{
@@ -110,6 +114,23 @@ font-size: 30px;
 .derecha1{
     margin-left: 298px;
 }
+
+.tamaño{
+    width: 300px;
+}
+
+.separar{
+    gap: 173px;
+}
+
+.caucar{
+    justify-content: center;
+}
+
+.tfondo img{
+    animation:fadeIn
+}
+
 
 
 
