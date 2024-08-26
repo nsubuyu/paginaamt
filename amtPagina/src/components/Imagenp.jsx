@@ -1,23 +1,24 @@
 import React from "react";
+import "./css/imagenp.css";
 
 function Imagenp(props) {
   return (
-    <div className="d-flex">
-        <div className=" w-25">
-            <img src={props.imagen} alt={props.alter} className="max-width: 100% height: auto img-fluid" />
-        
+    <div className="asesorias">
+      <div className="d-flex " id={props.ident}>
+        <div className="">
+          <img src={props.imagen} alt={props.alter} />
         </div>
-       
+
         <div>
-          <h1 className="">{props.titulo}</h1>
+          <h1>
+            <strong>{props.titulo}</strong>
+          </h1>
         </div>
-        
-        <div>
-          <p>{props.body}</p>
-          </div>
-        
-        
-        
+      </div>
+
+      <div className="cuerpo">
+        <p>{props.body}</p>
+      </div>
     </div>
   );
 }

@@ -11,3 +11,11 @@
 .botones img{
     height: 85px;
 }
+
+.btnd{
+    width: 500px;
+}
+
+.botones a{
+text-decoration: unset;
+}

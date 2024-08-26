@@ -1,10 +1,15 @@
 import React from "react";
+import "./css/heder.css";
 
 function Header(props) {
   return (
-    <figure className="w-100">
-      <img src={props.imagen} alt={props.alter} className=" w-100 h-100" />
-    </figure>
+    <>
+      <div className="w-100">
+        <img src={props.imagen} alt={props.alter} className=" w-100 h-100" />
+      </div>
+
+      <div className="leneazul"></div>
+    </>
   );
 }
 

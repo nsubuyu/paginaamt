@@ -1,17 +1,17 @@
 import React from "react";
-import Azul from "./Azul";
+import "./css/parrafo.css";
 
 function Parrafo(props) {
   return (
     <div className="">
-      <div>
-      <Azul titulo="QUIENES SOMOS"/>
+      <div className="quien">
+        <p>
+          <strong>QUIENES SOMOS</strong>
+        </p>
       </div>
-      <div className="mt-3">
-      <p>{props.body}</p> 
+      <div className="mt-3 quien2">
+        <p>{props.body}</p>
       </div>
-      
-      
     </div>
   );
 }

@@ -1,8 +1,27 @@
 .bimagen{
     background-color: var(--azul-color);
+        width: 233px;
+            height: 253px;
+            border-radius: 50%;
+        
 }
 
-.btarjeta{
-    background-color: var(----medio-color);
 
+.tag{
+    background-color: var(--medio-color) ;
+    border-radius: 34px;
+    margin-top: 115px;
+
+}
+
+.tag h3{
+    font-size: 3rem;
+}
+
+.tag p{
+    font-size: 20px;
+}
+
+.vmtexto{
+    width:791px ;
 }

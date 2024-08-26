@@ -1,0 +1,19 @@
+.quien{
+   background-color: var(--azul-color);
+   border-radius: 34px;
+   height: 80px;
+   text-align: center;
+
+}
+
+.quien p{
+    font-size: 50px;
+}
+
+.quien2{
+ width: 670px;
+}
+
+.quien2 p {
+    font-size: 25px;
+}

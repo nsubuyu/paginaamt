@@ -27,3 +27,36 @@
     width:400px ;
     
 }
+
+.amt h1{
+    font-size:75px;
+}
+
+.amt h2 {
+    font-size: 70px;
+}
+
+.caucar{
+    gap: 147px;
+}
+
+.objetivos h3{
+    font-size: 60px;
+}
+.objetivos p {
+    font-size: 39px;
+}
+.mv h3{
+    font-size: 143px;
+}
+.mv{
+    text-align: center;
+}
+
+.servicios li{
+font-size: 50px;
+}
+
+.servicios h2{
+    font-size: 112px;
+}

@@ -1,0 +1,17 @@
+.asesorias img{
+        height: max-content;
+            width: 129px;
+}
+
+.asesorias h1{
+   font-size: 120px;
+}
+
+.cuerpo{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#transporte {
+    align-items: start;
+}

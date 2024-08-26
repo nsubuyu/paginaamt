@@ -18,7 +18,7 @@ function App() {
         />
       </section>
 
-      <div data-aos="fade-up">
+      <div data-aos="fade-up" className="text-center amt">
         <Titulo
           texto=" AMT CUSTOMS SERVICES"
           negritas="Importaciones y Exportaciones"
@@ -43,22 +43,22 @@ function App() {
         </div>
       </section>
 
-      <div data-aos="fade-up" className="d-flex gap-5">
+      <div data-aos="fade-up" className="d-flex caucar mt-5">
         <Azul
           titulo="Cauca"
           imagen="/src/assets/pagina amt/IMÁGENES AMT 600600.png"
           alter="descarga"
-        />
-        <Azul
-          titulo="Recauca"
-          imagen="/src/assets/pagina amt/IMÁGENES AMT 600600.png"
-          alter="descarga"
+          titulo2=" Recauca"
+          imagen2="/src/assets/pagina amt/IMÁGENES AMT 600600.png"
+          link="https://portal.sat.gob.gt/portal/recursos-aduaneros/"
         />
       </div>
 
-      <div>
-        <p className=" fs-1 fw-bold"> Nuestros objetivos:</p>
-        <p className="fs-3">
+      <div className="objetivos">
+        <h3>
+          <strong> Nuestros objetivos:</strong>
+        </h3>
+        <p>
           Contribuir al desarrollo y crecimiento de la Organización ​siendo
           parte de un gran equipo de profesionales mostrando ser personas
           responsables, dedicadas, honestas, organizadas, colaboradoras y con
@@ -66,79 +66,93 @@ function App() {
         </p>
       </div>
 
-      <Header
-        imagen="/src/assets/pagina amt/3o.png"
-        alter="portada amt"
-      />
+      <Header imagen="/src/assets/pagina amt/3o.png" alter="portada amt" />
 
       <section>
-        <h1>Misión y Visión</h1>
-
-        <Tags
-          imagen="/src/assets/pagina amt/16.png"
-          alter="vision"
-          titulo="VISION"
-          texto="Ser una empresa con vocación de servicio, 
+        <div className="mv">
+          <h3>Misión y Visión</h3>
+        </div>
+        <div>
+          <Tags
+            imagen="/src/assets/pagina amt/16.png"
+            alter="vision"
+            titulo="VISION"
+            texto="Ser una empresa con vocación de servicio, 
     ​             responsabilidad, eficiente y ágil que constituya ​
                  una herramienta de éxito y satisfacción para 
                  ​nuestros clientes."
-        />
-
-        <Tags
-          imagen="/src/assets/pagina amt/15.png"
-          alter="Mision"
-          titulo="MISION"
-          texto="Realizar nuestro trabajo con prontitud 
+          />
+        </div>
+        <div>
+          <Tags
+            imagen="/src/assets/pagina amt/15.png"
+            alter="Mision"
+            titulo="MISION"
+            texto="Realizar nuestro trabajo con prontitud 
                 ​utilizando lo mejor de nuestro personal 
                 ​humano, como tecnológico, ofreciendo de 
                 ​esta forma la mejor de las opciones de       
 ​                servicio en el ramo de gestión aduanal."
-        />
+          />
+        </div>
       </section>
 
-
-
-      <div>
-        <h2 className=" fs-1 fw-bold"> Nuestros Servicios</h2>
+      <div className="servicios">
+        <h2>
+          <strong>Nuestros Servicios</strong>
+        </h2>
         <ul>
-          <li className="fs-3">Elaboración de Ducas</li>
+          <li>Elaboración de Ducas</li>
 
-          <li className="fs-3">Gestión Aduanera</li>
+          <li>Gestión Aduanera</li>
 
-          <li className="fs-3">Transporte</li>
+          <li>Transporte</li>
 
-          <li className="fs-3">Recolección de Documentos</li>
+          <li>Recolección de Documentos</li>
 
-          <li className="fs-3">Gestiones de licencia de importación</li>
+          <li>Gestiones de licencia de importación</li>
         </ul>
       </div>
 
       <section>
         <div className="container my-4">
-        
-        <div className="d-flex">
-        
-          <div className="linea">
-            <Iconos imagen="/src/assets/pagina amt/8.png" alter="8"  clase="modificar"/>
+          <div className="d-flex">
+            <div className="linea">
+              <Iconos
+                imagen="/src/assets/pagina amt/8.png"
+                alter="8"
+                clase="modificar"
+              />
+            </div>
+            <div className="linea">
+              <Iconos
+                imagen="/src/assets/pagina amt/7.png"
+                alter="7"
+                clase="modificar"
+              />
+            </div>
+            <div className="linea">
+              <Iconos
+                imagen="/src/assets/pagina amt/6.png"
+                alter="6"
+                clase="modificar"
+              />
+            </div>
+            <div className="linea">
+              <Iconos
+                imagen="/src/assets/pagina amt/5.png"
+                alter="5"
+                clase="modificar"
+              />
+            </div>
+            <div className="linea">
+              <Iconos
+                imagen="/src/assets/pagina amt/4.png"
+                alter="4"
+                clase="modificar"
+              />
+            </div>
           </div>
-          <div className="linea">
-            <Iconos imagen="/src/assets/pagina amt/7.png" alter="7" clase="modificar"/>
-          </div>
-          <div className="linea">
-            <Iconos imagen="/src/assets/pagina amt/6.png" alter="6" clase="modificar" />
-          </div>
-          <div className="linea">
-            <Iconos imagen="/src/assets/pagina amt/5.png" alter="5" clase="modificar"/>
-          </div>
-          <div className="linea">
-            <Iconos imagen="/src/assets/pagina amt/4.png" alter="4"clase="modificar" />
-          </div>
-          </div>
-
-
-
-
-
         </div>
       </section>
       <Header imagen="/src/assets/pagina amt/4o.png" alter="señores" />
@@ -151,6 +165,7 @@ function App() {
          desde antes de la ​compra hasta la entrega de las mercancías en las bodegas del ​importador o exportador. 
          Asimismo prevenimos posibles ajustes ​realizados por la Superintendencia de Administración Tributaria ​
          SAT, en materia de comercio exterior."
+        ident="asesoria"
       />
 
       <Imagenp
@@ -166,62 +181,80 @@ function App() {
          local y nacional. Las unidades son ​supervisadas para cumplir con nuestros estándares de calidad y ​seguridad. 
          Estamos en capacidad de proporcionar transporte ​terrestre.
          capacidad de proporcionar transporte ​terrestre."
+        ident="transporte"
       />
 
       <section>
         <div className="d-flex gap-3">
           <div className="d-flex">
             <div className="vector">
-            <Iconos imagen="/src/assets/pagina amt/6.png" alter="vector camion" />
+              <Iconos
+                imagen="/src/assets/pagina amt/6.png"
+                alter="vector camion"
+              />
             </div>
             <div className="tfondo">
-            <Tarjet
-              imagen="/src/assets/pagina amt/11.png"
-              alter="camion"
-            />
+              <Tarjet imagen="/src/assets/pagina amt/11.png" alter="camion" />
             </div>
           </div>
-         
+
           <div className="d-flex">
             <div className="vector">
-            <Iconos imagen="/src/assets/pagina amt/13.png" alter="vector barco" />
+              <Iconos
+                imagen="/src/assets/pagina amt/13.png"
+                alter="vector barco"
+              />
             </div>
             <div className="tfondo">
-            <Tarjet imagen="/src/assets/pagina amt/10.png" alter="barco" />
+              <Tarjet imagen="/src/assets/pagina amt/10.png" alter="barco" />
             </div>
-            
-            
           </div>
-            
 
           <div className="d-flex">
-             <div className="vector">
-             <Iconos imagen="/src/assets/pagina amt/14.png" alter="vector avion" />
-             </div>
+            <div className="vector">
+              <Iconos
+                imagen="/src/assets/pagina amt/14.png"
+                alter="vector avion"
+              />
+            </div>
 
-          <div className="tfondo">
-          <Tarjet imagen="/src/assets/pagina amt/9.png" alter="avion" />
-          </div>
-            
-           
+            <div className="tfondo">
+              <Tarjet imagen="/src/assets/pagina amt/9.png" alter="avion" />
+            </div>
           </div>
         </div>
       </section>
 
       <div className="d-flex">
         <div>
-          <Azul titulo="Servicios"  />
-          <p> Gestión Aduanera</p>
-          <p> Transporte</p>
-          <p> Recolección de Documentos</p>
-          <p> Gestiones de licencia de importación</p>
+          <div className="botones text-white">
+            <h3>Servicios</h3>
+          </div>
+          <div>
+            <ul>
+              <li> Gestión Aduanera</li>
+              <li> Transporte</li>
+              <li> Recolección de Documentos</li>
+              <li> Gestiones de licencia de importación</li>
+            </ul>
+          </div>
         </div>
 
         <div>
-          <Azul titulo="Contáctanos"/>
+          <div className="botones text-white">
+            <h3>Contáctanos</h3>
+          </div>
           <div>
-            <p>Ubicación</p>
+            <p>
+              <strong>Ubicación</strong>
+            </p>
             <p>17 Calle 7-80 Zona 13 Aurora 1</p>
+          </div>
+          <div>
+            <p>
+              <strong>Ventas</strong>
+            </p>
+            <p>Tel: 3015-6817, ​5697-6272</p>
           </div>
         </div>
       </div>
@@ -230,7 +263,3 @@ function App() {
 }
 
 export default App;
-            
-
-
-
