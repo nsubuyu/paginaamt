@@ -1,8 +1,10 @@
 .bimagen{
     background-color: var(--azul-color);
-        width: 233px;
-            height: 253px;
-            border-radius: 50%;
+    width: 233px;
+    height: 300px;
+    
+    border-radius: 50%;
+    
         
 }
 
@@ -11,6 +13,8 @@
     background-color: var(--medio-color) ;
     border-radius: 34px;
     margin-top: 115px;
+    width: 1000px;
+    height: 330px;
 
 }
 
@@ -19,9 +23,13 @@
 }
 
 .tag p{
-    font-size: 20px;
+    font-size: 29px;
 }
 
 .vmtexto{
     width:791px ;
+}
+
+.derecha2{
+    margin-left: 39px;
 }

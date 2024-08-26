@@ -10,8 +10,13 @@
 .cuerpo{
     margin-top: 30px;
     margin-bottom: 30px;
+    width: 767px;
+}
+
+.cuerpo p{
+    font-size: 22px;
 }
 
 #transporte {
-    align-items: start;
+    margin-left: 338px;
 }

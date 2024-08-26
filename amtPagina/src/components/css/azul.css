@@ -18,4 +18,11 @@
 
 .botones a{
 text-decoration: unset;
+font-size: 75px;
 }
+
+ul{
+    list-style-type:upper-roman;
+}
+
+

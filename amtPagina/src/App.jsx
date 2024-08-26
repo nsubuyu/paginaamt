@@ -7,8 +7,17 @@ import Tags from "./components/Tags";
 import Iconos from "./components/Iconos";
 import Imagenp from "./components/Imagenp";
 import Tarjet from "./components/Tarjet";
+import AOS from "aos";
+import { useEffect } from "react";
 
 function App() {
+  
+  useEffect(()=>{ 
+    
+    AOS.init({duration:3000});
+  
+  },[])
+
   return (
     <>
       <section>
@@ -18,15 +27,15 @@ function App() {
         />
       </section>
 
-      <div data-aos="fade-up" className="text-center amt">
+      <div data-aos="fade-up" className="text-center amt m-5">
         <Titulo
           texto=" AMT CUSTOMS SERVICES"
           negritas="Importaciones y Exportaciones"
         />
       </div>
       <section>
-        <div className="container">
-          <div className="texto text-white">
+        <div>
+          <div className="texto text-white m-5 " >
             <Parrafo
               titulo="QUIENES SOMOS"
               body="Servicio aduanero y logística integral con experiencia en
@@ -38,12 +47,13 @@ function App() {
             />
           </div>
           <div className="fondo">
-            <Header imagen="/src/assets/pagina amt/2o.png" alter="camion" />
+            <Header imagen="/src/assets/pagina amt/2o.png" alter="camion" clase="lineazul"/>
+            
           </div>
         </div>
       </section>
 
-      <div data-aos="fade-up" className="d-flex caucar mt-5">
+      <div className="d-flex caucar mt-5">
         <Azul
           titulo="Cauca"
           imagen="/src/assets/pagina amt/IMÁGENES AMT 600600.png"
@@ -66,13 +76,15 @@ function App() {
         </p>
       </div>
 
-      <Header imagen="/src/assets/pagina amt/3o.png" alter="portada amt" />
+      <Header imagen="/src/assets/pagina amt/3o.png" alter="portada amt" clase="lineazul"/>
 
       <section>
         <div className="mv">
           <h3>Misión y Visión</h3>
         </div>
-        <div>
+        <div className="mx-5">
+        <div className=" d-flex justify-content-start">
+        <div className="">
           <Tags
             imagen="/src/assets/pagina amt/16.png"
             alter="vision"
@@ -83,24 +95,47 @@ function App() {
                  ​nuestros clientes."
           />
         </div>
-        <div>
-          <Tags
-            imagen="/src/assets/pagina amt/15.png"
-            alter="Mision"
-            titulo="MISION"
-            texto="Realizar nuestro trabajo con prontitud 
-                ​utilizando lo mejor de nuestro personal 
-                ​humano, como tecnológico, ofreciendo de 
-                ​esta forma la mejor de las opciones de       
-​                servicio en el ramo de gestión aduanal."
-          />
         </div>
+        <div className="d-flex justify-content-end">
+
+
+          <div className="d-flex tag ">
+
+            <div className="vmtexto">
+              <div className=" text-white">
+                <h3>
+                  <strong>MISION</strong>
+                </h3>
+              </div>
+
+              <div>
+                <p>Realizar nuestro trabajo con prontitud
+                  utilizando lo mejor de nuestro personal
+                  humano, como tecnológico, ofreciendo de
+                  esta forma la mejor de las opciones de
+                  servicio en el ramo de gestión aduanal.</p>
+              </div>
+            </div>
+            <div className="bimagen d-flex align-items-center justify-content-center">
+              <figure>
+              <img src="/src/assets/pagina amt/15.png" alt="Mision" className="w-75 h-75 circulol"  />
+              </figure>
+                
+              </div>
+          </div>
+
+        </div>
+
+        </div>
+        
       </section>
 
-      <div className="servicios">
+      <div className="servicios mx-5">
+        <div className="text-center">
         <h2>
           <strong>Nuestros Servicios</strong>
         </h2>
+        </div>
         <ul>
           <li>Elaboración de Ducas</li>
 
@@ -185,75 +220,83 @@ function App() {
       />
 
       <section>
-        <div className="d-flex gap-3">
-          <div className="d-flex">
-            <div className="vector">
-              <Iconos
-                imagen="/src/assets/pagina amt/6.png"
-                alter="vector camion"
-              />
-            </div>
-            <div className="tfondo">
-              <Tarjet imagen="/src/assets/pagina amt/11.png" alter="camion" />
+
+        <div className="d-flex amts">
+          <div className="tamaño">
+            <div className="d-flex ">
+              <div className="vector">
+                <img src="/src/assets/pagina amt/12.png" alt="vector camion" />
+
+              </div>
+              <div className="tfondo">
+                <img src="/src/assets/pagina amt/11.png" alt="camion" />
+
+              </div>
             </div>
           </div>
 
-          <div className="d-flex">
-            <div className="vector">
-              <Iconos
-                imagen="/src/assets/pagina amt/13.png"
-                alter="vector barco"
-              />
+
+          <div classsName="tamaño">
+            <div className="d-flex">
+              <div className="vector">
+                <img src="/src/assets/pagina amt/13.png" alt="" />
+
+              </div>
+              <div className="tfondo">
+                <img src="/src/assets/pagina amt/10.png" alt="barco" />
+
+              </div>
             </div>
-            <div className="tfondo">
-              <Tarjet imagen="/src/assets/pagina amt/10.png" alter="barco" />
+          </div>
+          <div classsName="tamaño">
+            <div className="d-flex ">
+              <div className="vector">
+                <img src="/src/assets/pagina amt/14.png" alt="vector avion" />
+
+              </div>
+
+              <div className="tfondo">
+                <img src="/src/assets/pagina amt/9.png" alt="" />
+
+              </div>
             </div>
           </div>
 
-          <div className="d-flex">
-            <div className="vector">
-              <Iconos
-                imagen="/src/assets/pagina amt/14.png"
-                alter="vector avion"
-              />
-            </div>
 
-            <div className="tfondo">
-              <Tarjet imagen="/src/assets/pagina amt/9.png" alter="avion" />
-            </div>
-          </div>
+
+
         </div>
       </section>
 
-      <div className="d-flex">
-        <div>
-          <div className="botones text-white">
-            <h3>Servicios</h3>
+      <div className="d-flex contactos">
+        <div className="cleft">
+          <div className="botones2 text-white">
+            <h3><strong> Servicios</strong></h3>
           </div>
-          <div>
+          <div className="listserv">
             <ul>
-              <li> Gestión Aduanera</li>
-              <li> Transporte</li>
-              <li> Recolección de Documentos</li>
-              <li> Gestiones de licencia de importación</li>
+              <li> <p>Gestión Aduanera</p></li>
+              <li> <p>Transporte</p></li>
+              <li> <p>Recolección de Documentos</p></li>
+              <li> <p>Gestiones de licencia de importación</p></li>
             </ul>
           </div>
         </div>
 
         <div>
-          <div className="botones text-white">
-            <h3>Contáctanos</h3>
+          <div className="botones2 text-white">
+            <h3><strong>Contáctanos</strong></h3>
           </div>
-          <div>
-            <p>
+          <div className="direc">
+            <h3>
               <strong>Ubicación</strong>
-            </p>
+            </h3>
             <p>17 Calle 7-80 Zona 13 Aurora 1</p>
           </div>
-          <div>
-            <p>
+          <div className="direc">
+            <h3>
               <strong>Ventas</strong>
-            </p>
+            </h3>
             <p>Tel: 3015-6817, ​5697-6272</p>
           </div>
         </div>

@@ -3,8 +3,10 @@ import "./css/tag.css";
 function Tags(props) {
   return (
     <div className="d-flex tag">
-      <div className="bimagen justify-content-center aling-items-center">
-        <img src={props.imagen} alt={props.alter} className="w-25" />
+      <div className="bimagen d-flex align-items-center justify-content-center">
+        <figure>
+          <img src={props.imagen} alt={props.alter} className="w-75 h-75" />
+        </figure>
       </div>
 
       <div className="vmtexto">
