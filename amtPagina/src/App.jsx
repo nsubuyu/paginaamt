@@ -18,7 +18,7 @@ function App() {
         />
       </section>
 
-      <div>
+      <div data-aos="fade-up">
         <Titulo
           texto=" AMT CUSTOMS SERVICES"
           negritas="Importaciones y Exportaciones"
@@ -43,7 +43,7 @@ function App() {
         </div>
       </section>
 
-      <div className="d-flex gap-5">
+      <div data-aos="fade-up" className="d-flex gap-5">
         <Azul
           titulo="Cauca"
           imagen="/src/assets/pagina amt/IMÁGENES AMT 600600.png"
@@ -96,16 +96,17 @@ function App() {
 
       <div>
         <h2 className=" fs-1 fw-bold"> Nuestros Servicios</h2>
+        <ul>
+          <li className="fs-3">Elaboración de Ducas</li>
 
-        <p className="fs-3">Elaboración de Ducas</p>
+          <li className="fs-3">Gestión Aduanera</li>
 
-        <p className="fs-3">Gestión Aduanera</p>
+          <li className="fs-3">Transporte</li>
 
-        <p className="fs-3">Transporte</p>
+          <li className="fs-3">Recolección de Documentos</li>
 
-        <p className="fs-3">Recolección de Documentos</p>
-
-        <p className="fs-3">Gestiones de licencia de importación</p>
+          <li className="fs-3">Gestiones de licencia de importación</li>
+        </ul>
       </div>
 
       <div>
