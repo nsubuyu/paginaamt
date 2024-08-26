@@ -1,12 +1,13 @@
 .botones{
+    background-color: var(--azul-color);
     display: flex; 
     height: 120px;
     border-radius: 100px;
     justify-content: center;
     align-items: center;
-    width: 500px;
+    width: 300px;
 }
 
 .botones img{
-    height: 72px;
+    height: 85px;
 }

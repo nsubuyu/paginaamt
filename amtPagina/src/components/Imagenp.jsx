@@ -2,13 +2,21 @@ import React from "react";
 
 function Imagenp(props) {
   return (
-    <div>
+    <div className="d-flex">
+        <div className=" w-25">
+            <img src={props.imagen} alt={props.alter} className="max-width: 100% height: auto img-fluid" />
+        
+        </div>
+       
         <div>
-            <img src={props.imagen} alt={props.alter} />
-        <h1>{props.titulo}</h1>
+          <h1 className="">{props.titulo}</h1>
         </div>
         
-        <p>{props.body}</p>
+        <div>
+          <p>{props.body}</p>
+          </div>
+        
+        
         
     </div>
   );

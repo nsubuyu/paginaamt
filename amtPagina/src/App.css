@@ -1,0 +1,29 @@
+
+.fondo{
+    position: relative;
+
+}
+
+.texto{
+    position: absolute;
+        /* Posición absoluta dentro del contenedor */
+
+        width: 500px ;
+        
+        
+        z-index: 1;
+        /* Colocado detrás */}
+
+.tfondo{
+    position: relative;
+}
+
+.vector{
+    position: absolute;
+    z-index: 1;
+}
+
+.linea{
+    width:400px ;
+    
+}
