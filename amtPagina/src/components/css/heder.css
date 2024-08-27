@@ -4,3 +4,13 @@
         height: 70px;
         margin: 0px;
     }
+/*Portrait*/
+/*Default*/
+@media (max-width: 600px) {
+    .headerm{
+        width:100%;
+        
+    }
+   
+
+ }

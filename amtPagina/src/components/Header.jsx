@@ -4,8 +4,8 @@ import "./css/heder.css";
 function Header(props) {
   return (
     <>
-      <figure>
-      <img src={props.imagen} alt={props.alter} className=" w-100 h-100" />
+      <figure >
+      <img src={props.imagen} alt={props.alter} className=" w-100 h-100 headerm" />
       </figure>
         
       

@@ -1,136 +1,300 @@
-
-.fondo{
+.fondo {
     position: relative;
 
 }
 
-.texto{
+.texto {
     position: absolute;
-        /* Posición absoluta dentro del contenedor */
 
-        width: 500px ;
-        
-        margin: 8rem;
-        z-index: 1;
-        /* Colocado detrás */}
 
-.tfondo{
+    width: 500px;
+
+    margin: 8rem;
+    z-index: 1;
+}
+
+.tfondo {
     position: relative;
 }
 
-.vector{
+.vector {
     position: absolute;
     z-index: 1;
 }
 
 
-.tfondo img{
+.tfondo img {
     width: 300px;
 }
 
-.vector  img{
+.vector img {
     width: 300px;
-    
+
 }
 
 
 
-.linea{
-    width:400px ;
-    
+.linea {
+    width: 400px;
+
 }
 
-.amt h1{
-    font-size:75px;
+.amt h1 {
+    font-size: 75px;
 }
 
 .amt h2 {
     font-size: 70px;
 }
 
-.caucar{
+.caucar {
     gap: 147px;
 }
 
-.objetivos{
+.objetivos {
     margin-top: 3rem;
 }
 
-.objetivos h3{
+.objetivos h3 {
     font-size: 60px;
 }
+
 .objetivos p {
     font-size: 39px;
 }
-.mv h3{
+
+.mv h3 {
     font-size: 143px;
 }
-.mv{
+
+.mv {
     text-align: center;
 }
 
-.servicios li{
-font-size: 50px;
+.servicios li {
+    font-size: 50px;
 }
 
-.servicios h2{
+.servicios h2 {
     font-size: 112px;
 }
-.amts{
+
+.amts {
     gap: 78px;
 }
 
-.contactos{
+.contactos {
     gap: 250px;
 }
 
-.cleft{
+.cleft {
     margin-left: 50px;
 }
 
-.botones2{
+.botones2 {
     background-color: var(--azul-color);
-    display: flex; 
+    display: flex;
     height: 80px;
     border-radius: 100px;
     justify-content: center;
     align-items: center;
     width: 400px;
 }
-.listserv p{
-font-size: 30px;
-}
 
-.direc p{
-    font-size:26px ;
-}
-
-.direc h3{
+.listserv p {
     font-size: 30px;
 }
-.circulol{
+
+.direc p {
+    font-size: 26px;
+}
+
+.direc h3 {
+    font-size: 30px;
+}
+
+.circulol {
     margin-left: 35px;
 }
-.derecha1{
+
+.derecha1 {
     margin-left: 298px;
 }
 
-.tamaño{
+.tamaño {
     width: 300px;
 }
 
-.separar{
+.separar {
     gap: 173px;
 }
 
-.caucar{
+.caucar {
     justify-content: center;
 }
 
-.tfondo img{
-    animation:fadeIn
+
+
+
+@media (max-width: 900px) {
+    .tamaño {
+        flex-wrap: wrap;
+    }
+
+    .separar {
+        flex-wrap: wrap;
+    }
+
+    .iconosm {
+        flex-wrap: wrap;
+    }
+
+    .fondo {
+        position: relative;
+    
+    }
+    
+    .texto {
+        position: absolute;
+    
+    
+        width: 250px;
+    
+        margin: 0px;
+        z-index: 1;
+    }
+    
+    .tfondo {
+        position: relative;
+    }
+    
+    .vector {
+        position: absolute;
+        z-index: 1;
+    }
+    
+    
+    .tfondo img {
+        width: 150px;
+    }
+    
+    .vector img {
+        width: 125px;
+    
+    }
+    
+    
+    
+    .linea {
+        width: 200px;
+    
+    }
+    
+    .amt h1 {
+        font-size: 30px;
+    }
+    
+    .amt h2 {
+        font-size: 35px;
+    }
+    
+    .caucar {
+        gap: 70px;
+    }
+    
+    .objetivos {
+        margin-top: 0px;
+    }
+    
+    .objetivos h3 {
+        font-size: 30px;
+    }
+    
+    .objetivos p {
+        font-size: 20px;
+    }
+    
+    .mv h3 {
+        font-size: 60px;
+    }
+    
+    .mv {
+        text-align: center;
+    }
+    
+    .servicios li {
+        font-size: 50px;
+    }
+    
+    .servicios h2 {
+        font-size: 50px;
+    }
+    
+    .amts {
+        gap: 35px;
+    }
+    
+    .contactos {
+        gap: 125px;
+    }
+    
+    .cleft {
+        margin-left: 25px;
+    }
+    
+    .botones2 {
+        background-color: var(--azul-color);
+        display: flex;
+        height: 40px;
+        border-radius: 50px;
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+    }
+    
+    .listserv p {
+        font-size: 15px;
+    }
+    
+    .direc p {
+        font-size: 13px;
+    }
+    
+    .direc h3 {
+        font-size: 15px;
+    }
+    
+    .circulol {
+        margin-left: 15px;
+    }
+    
+    .derecha1 {
+        margin-left: 0px;
+    }
+    
+    .tamaño {
+        width: 150px;
+    }
+    
+    .separar {
+        gap: 80px;
+    }
+    
+    .caucar {
+        justify-content: center;
+    }
+
+    .centrardirec{
+        text-align:  center;
+    ;
+    }
+    
+
+    
+
+ 
+
+    
+
+
 }
-
-
-
-

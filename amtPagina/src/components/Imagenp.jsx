@@ -4,7 +4,7 @@ import "./css/imagenp.css";
 function Imagenp(props) {
   return (
     <div className="asesorias" id={props.ident}>
-      <div className="d-flex " >
+      <div className="d-flex iconosm" >
         <div className="">
           <img src={props.imagen} alt={props.alter} />
         </div>

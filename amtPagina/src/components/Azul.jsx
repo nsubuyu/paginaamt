@@ -3,7 +3,7 @@ import "./css/azul.css";
 
 function Azul(props) {
   return (
-    <div data-aos="fade-up" className="d-flex caucar mt-5">
+    <div data-aos="fade-up" className="d-flex caucar mt-5 iconosm">
       <div className="botones btnd text-white">
         <h1>
           <a className="text-white" href={props.link} target="_blank">

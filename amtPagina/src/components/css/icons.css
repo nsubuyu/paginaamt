@@ -4,5 +4,13 @@
             max-width: 200px;
 }
 
+@media (max-width: 900px) {
+    .modificar{
+        width: 100px;  
+                height: auto; 
+                max-width: 100px;
+    }
+}
+
 
 

@@ -58,7 +58,7 @@ function App() {
         </div>
       </section>
 
-      <div className="d-flex caucar mx-5">
+      <div className="d-flex  caucar mx-5 iconosm">
         <Azul
           titulo="Cauca"
           imagen="/src/assets/pagina amt/IMÁGENES AMT 600600.png"
@@ -84,11 +84,11 @@ function App() {
       <Header imagen="/src/assets/pagina amt/3o.png" alter="portada amt" clase="lineazul"/>
 
       <section>
-        <div className="mv">
+        <div className="mv m-5">
           <h3>Misión y Visión</h3>
         </div>
         <div className="mx-5">
-        <div className=" d-flex justify-content-start">
+        <div className=" d-flex justify-content-start ">
         <div className="">
           <Tags
             imagen="/src/assets/pagina amt/16.png"
@@ -101,10 +101,10 @@ function App() {
           />
         </div>
         </div>
-        <div className="d-flex justify-content-end">
+        <div className="d-flex justify-content-end ">
 
 
-          <div className="d-flex tag ">
+          <div className="d-flex tag " id="vtel">
 
             <div className="vmtexto mx-5 mt-3">
               <div className=" text-white">
@@ -136,7 +136,7 @@ function App() {
       </section>
 
       <div className="servicios mx-5">
-        <div className="text-center">
+        <div className="text-center m-5">
         <h2>
           <strong>Nuestros Servicios</strong>
         </h2>
@@ -155,8 +155,8 @@ function App() {
       </div>
 
       <section>
-        <div className="container my-4">
-          <div className="d-flex">
+        <div className="container my-4 m-5 ">
+          <div className="d-flex m-5 iconosm">
             <div className="linea">
               <Iconos
                 imagen="/src/assets/pagina amt/8.png"
@@ -195,12 +195,12 @@ function App() {
           </div>
         </div>
       </section>
-      <div className="mb-5">
+      <div className="mb-5 m-5">
       <Header imagen="/src/assets/pagina amt/4o.png" alter="señores"  />
       </div>
       
       <div className="mx-5">
-       <div className="d-flex justify-content-start">
+       <div className="d-flex justify-content-start iconosm">
        <Imagenp
         titulo="Asesorías"
         imagen="/src/assets/pagina amt/3.png"
@@ -214,7 +214,7 @@ function App() {
        </div>
       
 
-      <div className="d-flex justify-content-end">
+      <div className="d-flex justify-content-end iconosm">
       <Imagenp
         titulo="Transporte"
         imagen="/src/assets/pagina amt/2.png"
@@ -237,7 +237,7 @@ function App() {
 
       <section>
 
-        <div className="d-flex junstfy-content-center mx-5 pb-5 separar">
+        <div className="d-flex junstfy-content-center mx-5 pb-5 separar iconosm">
           
           <div className="tamaño">
             <div className="d-flex ">
@@ -288,7 +288,7 @@ function App() {
 
 
       <section>
-      <div className="d-flex contactos cola">
+      <div className="d-flex contactos cola iconosm">
         <div className="cleft mt-5">
           <div className="botones2 text-white m-5">
             <h3><strong> Servicios</strong></h3>
@@ -307,6 +307,8 @@ function App() {
           <div className="botones2 text-white m-5">
             <h3><strong>Contáctanos</strong></h3>
           </div>
+          <div className="centrardirec">
+
           <div className="direc">
             <h3>
               <strong>Ubicación</strong>
@@ -319,6 +321,9 @@ function App() {
             </h3>
             <p>Tel: 3015-6817, ​5697-6272</p>
           </div>
+
+          </div>
+          
         </div>
       </div>
       </section>

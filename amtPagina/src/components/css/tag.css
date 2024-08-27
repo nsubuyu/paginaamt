@@ -33,3 +33,51 @@
 .derecha2{
     margin-left: 39px;
 }
+
+@media (max-width: 900px) {
+    .bimagen{
+        background-color: var(--azul-color);
+        width: 115px;
+        height: 150px;
+        
+        border-radius: 50%;
+        
+            
+    }
+    
+    
+    .tag{
+        background-color: var(--medio-color) ;
+        border-radius: 17px;
+        margin-top: 57px;
+        width: 360px;
+        height: 165px;
+        margin-left: -40px;
+    
+    }
+    
+    .tag h3{
+        font-size: 1rem;
+    }
+    
+    .tag p{
+        font-size: 15px;
+    }
+    
+    .vmtexto{
+        width:400px ;
+    }
+    
+    .derecha2{
+        margin-left: 39px;
+    }
+    .colorido{
+        display:flex;
+        justify-content: center !important;
+    }
+    
+    #vtel{
+        margin-right: -40px;
+    }
+    
+}
