@@ -11,7 +11,26 @@ import AOS from "aos";
 import { useEffect } from "react";
 
 import img1 from "./assets/pagina amt/PORTA DE INICIO.png";
-import img2 from ".npm run dev/assets/pagina amt/2o.png";
+import img2 from "./assets/pagina amt/2o.png";
+import img3 from "/src/assets/pagina amt/IMÁGENES AMT 600600.png";
+import img4 from "/src/assets/pagina amt/3o.png";
+import img5 from "/src/assets/pagina amt/16.png";
+import img6 from "/src/assets/pagina amt/15.png";
+import img7 from "/src/assets/pagina amt/8.png";
+import img8 from "/src/assets/pagina amt/7.png";
+import img9 from "/src/assets/pagina amt/6.png";
+import img10 from "/src/assets/pagina amt/5.png";
+import img11 from "/src/assets/pagina amt/4.png";
+import img12 from "/src/assets/pagina amt/4o.png";
+import img13 from "/src/assets/pagina amt/3.png";
+import img14 from "/src/assets/pagina amt/2.png";
+import img15 from "/src/assets/pagina amt/12.png";
+import img16 from "/src/assets/pagina amt/11.png";
+import img17 from "/src/assets/pagina amt/13.png";
+import img18 from "/src/assets/pagina amt/14.png";
+import img19 from "/src/assets/pagina amt/9.png";
+
+
 
 function App() {
   
@@ -64,10 +83,10 @@ function App() {
       <div className="d-flex  caucar mx-5 iconosm">
         <Azul
           titulo="Cauca"
-          imagen="/src/assets/pagina amt/IMÁGENES AMT 600600.png"
+          imagen={img3}
           alter="descarga"
           titulo2=" Recauca"
-          imagen2="/src/assets/pagina amt/IMÁGENES AMT 600600.png"
+          imagen2={img3}
           link="https://portal.sat.gob.gt/portal/recursos-aduaneros/"
         />
       </div>
@@ -84,7 +103,7 @@ function App() {
         </p>
       </div>
 
-      <Header imagen="/src/assets/pagina amt/3o.png" alter="portada amt" clase="lineazul"/>
+      <Header imagen={img4} alter="portada amt" clase="lineazul"/>
 
       <section>
         <div className="mv m-5">
@@ -94,7 +113,7 @@ function App() {
         <div className=" d-flex justify-content-start ">
         <div className="">
           <Tags
-            imagen="/src/assets/pagina amt/16.png"
+            imagen={img5}
             alter="vision"
             titulo="VISION"
             texto="Ser una empresa con vocación de servicio, 
@@ -126,7 +145,7 @@ function App() {
             </div>
             <div className="bimagen d-flex align-items-center justify-content-center">
               <figure>
-              <img src="/src/assets/pagina amt/15.png" alt="Mision" className="w-75 h-75 circulol"  />
+              <img src={img6} alt="Mision" className="w-75 h-75 circulol"  />
               </figure>
                 
               </div>
@@ -162,35 +181,35 @@ function App() {
           <div className="d-flex m-5 iconosm">
             <div className="linea">
               <Iconos
-                imagen="/src/assets/pagina amt/8.png"
+                imagen={img7}
                 alter="8"
                 clase="modificar"
               />
             </div>
             <div className="linea">
               <Iconos
-                imagen="/src/assets/pagina amt/7.png"
+                imagen={img8}
                 alter="7"
                 clase="modificar"
               />
             </div>
             <div className="linea">
               <Iconos
-                imagen="/src/assets/pagina amt/6.png"
+                imagen={img9}
                 alter="6"
                 clase="modificar"
               />
             </div>
             <div className="linea">
               <Iconos
-                imagen="/src/assets/pagina amt/5.png"
+                imagen={img10}
                 alter="5"
                 clase="modificar"
               />
             </div>
             <div className="linea">
               <Iconos
-                imagen="/src/assets/pagina amt/4.png"
+                imagen={img11}
                 alter="4"
                 clase="modificar"
               />
@@ -199,14 +218,14 @@ function App() {
         </div>
       </section>
       <div className="mb-5 m-5">
-      <Header imagen="/src/assets/pagina amt/4o.png" alter="señores"  />
+      <Header imagen={img12} alter="señores"  />
       </div>
       
       <div className="mx-5">
        <div className="d-flex justify-content-start iconosm">
        <Imagenp
         titulo="Asesorías"
-        imagen="/src/assets/pagina amt/3.png"
+        imagen={img13}
         alter="mesa"
         body="Asesorías en temas de comercio internacionales, 
          desde antes de la ​compra hasta la entrega de las mercancías en las bodegas del ​importador o exportador. 
@@ -220,7 +239,7 @@ function App() {
       <div className="d-flex justify-content-end iconosm">
       <Imagenp
         titulo="Transporte"
-        imagen="/src/assets/pagina amt/2.png"
+        imagen={img14}
         alter="camion"
         body="Transporte terrestre, contamos con autorización de las 
          autoridades ​aduaneras para brindar el servicio de transporte aduanero. Nuestras ​unidades tienen diferentes capacidades, 
@@ -245,11 +264,11 @@ function App() {
           <div className="tamaño">
             <div className="d-flex ">
               <div className="vector">
-                <img src="/src/assets/pagina amt/12.png" alt="vector camion" />
+                <img src={img15} alt="vector camion" />
 
               </div>
               <div className="tfondo">
-                <img src="/src/assets/pagina amt/11.png" alt="camion" />
+                <img src={img16} alt="camion" />
 
               </div>
             </div>
@@ -259,7 +278,7 @@ function App() {
           <div classsName="tamaño">
             <div className="d-flex">
               <div className="vector">
-                <img src="/src/assets/pagina amt/13.png" alt="" />
+                <img src={img17} alt="" />
 
               </div>
               <div className="tfondo ">
@@ -272,12 +291,12 @@ function App() {
           <div classsName="tamaño">
             <div className="d-flex ">
               <div className="vector">
-                <img src="/src/assets/pagina amt/14.png" alt="vector avion" />
+                <img src={img18} alt="vector avion" />
 
               </div>
 
               <div className="tfondo">
-                <img src="/src/assets/pagina amt/9.png" alt="avion" />
+                <img src={img19} alt="avion" />
 
               </div>
             </div>
