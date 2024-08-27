@@ -10,6 +10,9 @@ import Tarjet from "./components/Tarjet";
 import AOS from "aos";
 import { useEffect } from "react";
 
+import img1 from "./assets/pagina amt/PORTA DE INICIO.png";
+import img2 from ".npm run dev/assets/pagina amt/2o.png";
+
 function App() {
   
   useEffect(()=>{ 
@@ -22,7 +25,7 @@ function App() {
     <>
       <section>
         <Header
-          imagen="/src/assets/pagina amt/PORTA DE INICIO.png"
+          imagen={img1}
           alter="imagen"
         />
       </section>
@@ -52,7 +55,7 @@ function App() {
             />
           </div>
           <div className="fondo">
-            <Header imagen="/src/assets/pagina amt/2o.png" alter="camion" clase="lineazul"/>
+            <Header imagen={img2} alter="camion" clase="lineazul"/>
             
           </div>
         </div>
